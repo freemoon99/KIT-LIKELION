@@ -45,6 +45,11 @@ img{
     font-size: 100%;
     margin-right: 2%;
 }
+
+.p:hover{
+    color: black;
+    font-weight: bold;
+}
 /* input은 검색을 할때 텍스트가 쳐지는 창 */
 input{
     /* margin-top: 0.3%; */
@@ -95,4 +100,34 @@ button{
     background-color: orange;
     border: none;
     cursor: pointer;
+}
+
+.middlebox{
+    height: 30px;
+    width: 1000px;
+    margin-top: 5px;
+    display: flex;
+    border-top: 7px double orange;
+    border-bottom: 7px double orange;
+    border-left: 0px;
+    border-right: 0px;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-left: 10%;
+    align-items: center;
+}
+
+.category{
+    color: rgb(143, 142, 142);
+    background-color: white;
+    border: 0;
+    width: auto;
+    margin-right: 15px;
+    height: 96%;
+    font-size: 15px;
+}
+
+.category:hover{
+    color: black;
+    font-weight: bold;
 }
